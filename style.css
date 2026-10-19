@@ -6,11 +6,13 @@
 }
 
 body{
+   
     font-family:Arial, Helvetica, sans-serif
+       
 }
 
 .nav{
-    background-color: #460909;
+    background-color: #7b68ce;
     height: 80px;
     width: 100%;
     display: flex;
@@ -42,6 +44,23 @@ body{
   height: 20vh;           /* Ocupa a altura total da tela (opcional) */
 }
 #tamanho{
- width: 450px;
- height: 450px;
+    width: 450px;
+    height: 450px;
+    }
+
+
+#espaco-1{
+    display: flex;
+    justify-content: center; 
+    margin-top: 40px;
+    align-items: center; 
+}
+
+/* No seu arquivo style.css */
+.alinha-botoes {
+    margin-left: 5%;
+    display: flex;
+    gap: 15px; /* Cria um espaçamento automático entre os itens, sem precisar de margin */
+    align-items: normal; /* Alinha os itens verticalmente no centro */
+    justify-content: left; /* Alinha os itens horizontalmente no centro */
 }
