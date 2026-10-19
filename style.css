@@ -41,3 +41,7 @@ body{
   align-items: center;     /* Centraliza na vertical */
   height: 20vh;           /* Ocupa a altura total da tela (opcional) */
 }
+#tamanho{
+ width: 450px;
+ height: 450px;
+}
